@@ -1,0 +1,100 @@
+#Defensive armies can't transport of the planet
+#Garrison armies are created by pops
+#maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
+
+# Kaiserlicher Garde
+kaiserliche_garde_army = {
+	defensive = yes
+	damage = 3.25
+	health = 3.25
+	morale = 5
+	morale_damage = 1.5
+	time = 500
+	maintenance = 1.5
+	icon_frame = 1
+
+	cost = {
+		minerals = 300
+		energy = 100
+	}
+
+	prerequisites = { tech_imperial_conscription }
+
+	allow = {
+		has_building = "building_kaiserlicher_palast"
+	}
+
+
+}
+
+# Kaiserliche Armee
+kaiserliche_army = {
+	defensive = no
+	damage = 1.5
+	health = 1.5
+	morale = 2.5
+	morale_damage = 0.75
+	time = 50
+	maintenance = 0.5
+	icon_frame = 2
+
+	cost = {
+		minerals = 25
+		energy = 5
+	}
+
+	prerequisites = { "tech_kaiserliche_armee" }
+
+	allow = {
+		OR = {
+			has_building = "building_kaiserliche_villa"
+			has_building = "building_kaiserliches_schloss"
+			has_building = "building_kaiserlicher_palast"
+		}
+	}
+
+
+}
+
+# Space Marines
+space_marine_army = {
+	defensive = no
+	damage = 4.5
+	health = 4.5
+	morale = 4.5
+	morale_damage = 2
+	time = 100
+	maintenance = 3
+	icon_frame = 6
+
+	cost = {
+		minerals = 250
+		energy = 50
+	}
+
+	prerequisites = { "tech_kaiserliche_supreriority" }
+
+	allow = {
+		has_building = "building_kaiserlicher_palast"
+
+	}
+
+
+}
+
+# Mechwarriors
+mechwarrior_army = {
+	damage = 5.0
+	health = 5.0
+	morale = 5.0
+	time = 800
+	maintenance = 5.0
+	icon_frame = 2
+	
+	cost = {
+		minerals = 1000
+		energy = 500
+	}
+	
+	prerequisites = { "tech_powered_exoskeletons" "tech_combat_training" "tech_spaceport_6" "building_kaiserlicher_palast"}
+}

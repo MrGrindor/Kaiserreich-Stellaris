@@ -1,0 +1,192 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+tech_kaiserliche_armee = {
+	cost = @tier1cost1
+	area = society
+	category = { statecraft }
+	tier = 1
+	weight = @tier1weight1
+
+
+
+	weight_modifier = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT = {
+				has_valid_civic = civic_kaiserreich
+			}
+		}
+	}
+}
+
+tech_kaiserlicher_hof = {
+	cost = @tier2cost1
+	area = society
+	category = { statecraft }
+	tier = 2
+	weight = @tier2weight1
+	prerequisites = { "tech_kaiserliche_armee" }
+
+
+
+	weight_modifier = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				has_valid_civic = civic_kaiserreich
+			}
+		}
+	}
+}
+
+tech_kaiserlicher_prunkbau = {
+	cost = @tier3cost1
+	area = society
+	category = { statecraft }
+	tier = 3
+	weight = @tier3weight1
+	prerequisites = { "tech_kaiserlicher_hof" }
+
+
+	weight_modifier = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				has_valid_civic = civic_kaiserreich
+			}
+		}
+	}
+}
+
+tech_open_officer_corps = {
+	cost = @tier2cost1
+	area = society
+	category = { military_theory }
+	tier = 3
+	weight = @tier2weight1
+	prerequisites = { "tech_kaiserliche_armee" }
+
+	modifier = {
+		leader_skill_levels = 1
+		country_leader_cap = 2
+	}
+
+	weight_modifier = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				has_valid_civic = civic_kaiserreich
+			}
+		}
+	}
+}
+
+tech_imperial_conscription = {
+	cost = @tier3cost1
+	area = society
+	category = { military_theory }
+	tier = 3
+	weight = @tier3weight1
+	prerequisites = { "tech_open_officer_corps" }
+
+	modifier = {
+		navy_size_mult = 0.10
+	}
+
+	weight_modifier = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				has_valid_civic = civic_kaiserreich
+			}
+		}
+	}
+}
+
+tech_kaiserliche_militaer_akademie = {
+	cost = @tier3cost2
+	area = society
+	category = { military_theory }
+	tier = 3
+	weight = @tier3weight2
+	prerequisites = { "tech_imperial_conscription" }
+
+	modifier = {
+		army_damage_mult = 0.20
+	}
+
+	weight_modifier = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				has_valid_civic = civic_kaiserreich
+			}
+		}
+	}
+}
+
+tech_kaiserliche_supreriority = {
+	cost = @tier3cost3
+	area = society
+	category = { statecraft }
+	tier = 3
+	weight = @tier3weight3
+	prerequisites = { "tech_kaiserlicher_prunkbau" }
+
+	modifier = {
+		country_border_mult = 0.3
+	}
+
+	weight_modifier = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				has_valid_civic = civic_kaiserreich
+			}
+		}
+	}
+}

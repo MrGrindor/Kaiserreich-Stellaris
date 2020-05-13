@@ -1,0 +1,263 @@
+﻿### Galactic Empire
+Human = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+			Bergisch Gladbach Bottrop Bremerhaven Cottbus Darmstadt Erlangen Furth Göttingen Hagen Hamm Heidelberg Heilbronn Herne Hildesheim Ingolstadt Jena Kassel Koblenz Leverkusen Ludwigshafen Moers Mulheim Ruhr Neuss Offenbach Main Oldenburg Osnabruck Paderborn Pforzheim Potsdam Recklinghausen Regensburg Remscheid Reutlingen Saarbrucken Salzgitter Siegen Solingen Trier Ulm Wolfsburg Wurzburg Gotha Görgau Sigismund Siegfried
+		}
+		
+		corvette = {
+			Korvette
+		}
+		
+		constructor = {
+			Konstruktor Baumeister Erbauer Bauherr Bauunternehmer Schiffbauer Bauarbeiter Architekt 
+		}
+		
+		colonizer = {
+			Reisende "Der-Wanderer" Kolonizer Berlin 
+		}
+		
+		science = {
+			Wissenschaft Schiff "Die Forshung" "Die Erforschung" Sucher "Der Suchende" "Der Verfolger" "Der Finder" 
+		}
+		destroyer = {
+			"Hameln II" Zerstörer 
+		}
+		
+		cruiser = {
+			Deutschland Lutzow "Admiral Scheer" "Admiral Graf Spee" Blucher Seydlitz Moltke Goeben Mackensen "Furst Bismarck" Gazelle Bremen Konigsberg Dresden Kolberg Magdeburg Karlsruhe Graudentz  Pillau Wiesbaden Coln Emden Leipzig Nurnberg Gotha 
+		}
+		
+		battleship = {
+			Brunhild Barbarosa Tristan Beowulf Walkuren Branderburg "Kaiser Friedrich" Wittelsbach Braunschweig Deutschland Nassau Helgoland Kaiser Konig Bayern Schamhorst Bismarck "H-Class" 
+		}
+		
+		orbital_station = { Orbitalstation}
+		mining_station = { Bergbau-Station}
+		research_station = {Forschungsstation }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { Beobachtungsstation}
+		Festung_station = {
+			random_names = {
+				Iserlohn Geiersberg Gleichenburg Nordfeste "Kaiser Schild"
+			}
+			sequential_name = "%O% Vorposten von Grenze"
+		}
+		
+		transport = {
+			"der Transporter" 
+		}
+
+		military_station_small = { 
+			Rudolf Sigismund Richard Otfried Kaspar Julius Sigismund Otfried August Erich Richard Otto Heinz Richard August Erich Friedrich Leonhard Friedrich Maximilian Joseph Gustav Maximilian Joseph Cornelius Manfred Helmut Manfred Wilhelm Erwin Kasarin Katchen
+		}
+		
+		#military_station_small = { 
+		#	sequential_names = { 
+		#		"Festung 1" "Festung 2" "Festung 3" "Festung 4" "Festung 5" "Festung 6" "Festung 7" "Festung 8" "Festung 9" "Festung 10" "Festung 11" "Festung 12"
+		#		"Festung 13" "Festung 14" "Festung 15" "Festung 16" "Festung 17" "Festung 18" "Festung 19" "Festung 20" "Festung 21" "Festung 22" "Festung 23"
+		#		"Festung 24" "Festung 25" "Festung 26" "Festung 27" "Festung 28" "Festung 29" "Festung 30" "Festung 31" "Festung 32" "Festung 33" "Festung 34"
+		#		"Festung 35" "Festung 36" "Festung 37" "Festung 38" "Festung 39" "Festung 40"
+		#	}
+		#}
+		
+		military_station_medium = { 
+			Geisburg  
+		}
+		
+	
+		
+		military_station_large = { 
+			Iserlhon 
+		}
+		
+		
+	}
+
+	fleet_names = {
+		random_names = {
+"Die erste Flotte"
+"Zweite Flotte"
+"Dritte Flotte"
+"Vierte Flotte"
+"Funfte Flotte"
+"Sechste Flotte"
+"Acht Flotte"
+"Neunte Flotte"
+"Zehnte Flotte"
+		}
+		sequential_name = "%O% Flotte"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Kaiserliche Garnison"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Kaiserliches Expeditions Korps"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Knecht"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Kaiserliche Klon Armee"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Kaiserliche Schlachtmaschinen"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Rangers"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Kaiserliches Priesterkorps"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xene Division"
+		}
+		
+		gene_warrior_army = {
+			random_names = {
+				"SARC-A 'Gladiators'" "SARC-B 'Widowmakers'" "SARC-C 'Immortals'" "SARC-D 'Berserkers'" "SARC-E 'Assassins'"
+				"SARC-F 'Reapers'" "SARC-G 'Nighthawks'" "SARC-H 'Desperados'" "SARC-I 'Grey Knights'" "SARC-J 'Roughnecks'" 
+			}
+			sequential_name = "%O% Kaiserliches Gen-Korps"
+		}
+
+		kaiserliche_garde_army = {
+			sequential_name = "%0% Kaiserliche Garde"
+		}
+
+		kaiserlicher_army = {
+			sequential_name = "%0% Kaiserliche Armeekorps"
+		}
+
+		space_marine_army = {
+			sequential_name = "%0% Space Marine Division"
+		}
+
+		mechwarrior_army = {
+			sequential_name = "%0% Mecha Knight Abteilung"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+	
+			Aachen Augsburg Bielefeld Bochum Bonn Braunschweig Chemnitz Duisburg Erfurt Freiburg Breisgau Wolfsburg Munchen Nuremberg Rhein Neckar Ruhr Stuttgart Sachsen Kaisershaven Brandenburg Salzburg Königsberg Danzig Potsdam Halle Saale Karlsruhe Kiel Krefeld Lubeck Magdeburg Mainz Mannheim Munster Mönchengladbach Oberhausen Rostock Wiesbaden Wuppertal Bergisch Gladbach Bottrop Bremerhaven Cottbus Darmstadt Erlangen Furth Göttingen Hagen Hamm Heidelberg Heilbronn Herne Hildesheim Ingolstadt Jena Kassel Koblenz Leverkusen Ludwigshafen Moers Mulheim Ruhr Neuss Offenbach Main Oldenburg Osnabruck Paderborn Pforzheim Potsdam Recklinghausen Regensburg Remscheid Reutlingen Saarbrucken Salzgitter Siegen Solingen Trier Ulm Wolfsburg Wurzburg
+			}
+		}
+		
+		pc_desert = {
+			names = {
+Wuste Beheizte Geröstete Sonnenlicht Sonnenschirm Brennen Heizung
+
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				Halle Saale Karlsruhe Kiel Krefeld Lubeck Magdeburg Mainz Mannheim Munster Mönchengladbach Oberhausen Rostock Wiesbaden Wuppertal
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Amazonia Kongo Ecuador Regen Sturm Monsoon Bengal "New Africa" Kishkindha Sansibar Kipling
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Bergisch Gladbach Bottrop Bremerhaven Cottbus Darmstadt Erlangen Furth Göttingen Hagen Hamm Heidelberg Heilbronn Herne Hildesheim Ingolstadt Jena Kassel Koblenz Leverkusen Ludwigshafen Moers Mulheim Ruhr Neuss Offenbach Main Oldenburg Osnabruck Paderborn Pforzheim Potsdam Recklinghausen Regensburg Remscheid Reutlingen Saarbrucken Salzgitter Siegen Solingen Trier Ulm Wolfsburg Wurzburg
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+					Bremen Dortmund Dresden Dusseldorf Essen Frankfurt Hanover Leipzig Nuremberg Stuttgart
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Atlantis Ozean Pacifica Atlantica Euxina Hyrcania Rubrica Erythraea Baltica R'lyeh Dagon Kraken Aegea Adriatica Tyrrhenien Mediterranea Mare
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				IIsland Kanada Kola Scandza Utgard Rus Blizzard Taiyuanx
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Thule Arctica Grönland Alaska Baffin Sibirien Niflheim Hyperborea
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+names1 = {
+			weight = 100
+			first_names_male = {
+				Karl Wilhelm Otto Heinrich Friedrich Paul Hans Gustav Max Ernst Hermann Walter Werner Gunther Wolfgang Helmuth Kurt Rolf
+				Peter Klaus Gerhard Heinz Horst Manfred Uwe Jurgen Dieter Andreas Thomas Stefan Lukas Felix Martin Fritz Johann Erich Arnold
+				Bruno Franz Rudolf Erhard Jorg Axel Emil Gerhardt Gottfried Holger Joachim Konrad Lothar Ludwig Matthias Moritz Reinhard
+				Sigismund Ulrich Udo
+			}
+			first_names_female = {
+				Anna Elsa Emma Helga Ursula Gisela Ingrid Ilse Jessika Sandra Stefanie Andrea Anja Katrin Birgit Martina Heike Sabine Erika
+				Edith Lena Lisa Katharina Claudia Silvia Tina Annike Renate Bettina Wibke Sara Lina Julia Marith Heidi Angelika Christel
+				Gretchen Hilde Hildegard Gertrude Wilhelmina Lisbeth Kerstin Johanna Anita 
+				Mia Emma Hannah  Hanna Sofia Sophia Anna Emilia Lina Marie Lena Mila Emily Emilie Lea Leah Leonie Amelie Sophie Sofie Johanna 
+				Luisa Louisa Clara Klara Lilly Lilli Laura Nele Neele Lara Charlotte Leni Maja Maya Frieda Frida Mathilda MatildaIda Ella Pia 
+				Sarah Sara Lia Liah Lya Lotta Greta Melina Julia Paula Lisa Marlene Zoe Alina Victoria Viktoria Mira Elisa Isabella Helena Josephine 
+				Josefine Mara Marah Isabell Isabel Isabelle Nora
+			}
+			second_names = {
+				Muller Schmidt Schneider Fischer Weber Meyer Wagner Schulz Becker Hoffmann Bauer Brinkmann Brill Dietrich Erhard Grasser
+				"von Gebser" "von Fritsch" "von Wrangel" "von Halkett" "von Boyen" "von Falkenstein" Dreyer Wolf Klein Richter Schafer "von Schilverberch" 
+				"von Moder" "von Feuerbach"
+				Neumann Braun Schwarz Kruger Stein Keller Schubert Baumann Ziegler Brandt Sauer Kreutz Bergmeister Andbert 		
+				"von Gauldenbaum" "von Lonhengramm" "von Mariendorf" "von Mittermeyer" "von Reunthal" "von Bittenfield" "von Musel" "von Muller" 
+				Kircheis "von Secla" "von Braunschweig" "von Sachsen" "von Lippstadt" "von Coburg-Gotha" "von Bayern" "in Bayern" "von Bismarck" "von Moltke" "von Ludendorf" "von Preußen" "von Lichtenlade" "von Klopstock" "von Kastrop" "von Lansberg" "von Littenheim" "von Lemscheid"
+			}
+			regnal_first_names_male = {
+				
+				Otto Wilhelm Klaus Friedrich Maximilian Wilhelm 
+				Jochen "Friedrich Willhelm"
+			}
+			regnal_first_names_female = {
+				Hildegard Mia Emma Hannah  Hanna Sofia Sophia Anna Emilia Lina Marie Lena Mila Emily Emilie Lea Leah Leonie Amelie Sophie
+				Sofie Johanna Luisa Louisa Clara Klara Lilly Lilli Laura Nele Neele Lara Charlotte Leni Maja Maya Frieda Frida Mathilda 
+				Matilda Ida Ella Pia Sarah Sara Lia Liah Lya Lotta Greta Melina Julia Paula Lisa Marlene Zoe Alina Victoria Viktoria Mira
+				Elisa Isabella Helena Josephine  Josefine Mara Marah Isabell Isabel Isabelle Nora
+			}
+			regnal_second_names = {
+				"von Gauldenbaum" "von Lonhengramm" "von Mariendorf" "von Mittermeyer" "von Reunthal" "von Bittenfield" 
+				"von Musel" "von Muller" "von Kircheis" "von Braunschweig" "von Littenheim" "von Lichtenlade"
+				"von Lansberg" "von Kastrop" "von Klopstock" "von Lemscheid"
+			}
+		}
+		
+		}
+	}
+}
